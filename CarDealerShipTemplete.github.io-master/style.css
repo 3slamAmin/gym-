@@ -1,0 +1,115 @@
+/* Margin Querries */
+@media screen and (max-width: 760px) and (min-width: 470px) {
+  .rent {
+    margin-top: 40px !important;
+  }
+}
+@media screen and (max-width: 469px) {
+  .rent {
+    margin-top: 80px !important;
+  }
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: black!important;
+}
+
+.comp-pos{
+  letter-spacing: 5px;
+  text-shadow:10px 5px 50px white;
+  color: white;
+  font-size: 70px;
+  position: relative;
+  top: 30px;
+  font-family: 'Fredericka the Great', cursive;
+}
+
+.rent{
+  background-color:#080808;
+  color: white;
+  position: relative;
+  bottom: 130px;
+  border: dashed 1px white;
+  border-radius: 5px;
+  box-shadow: 10px 0px 30px white;
+}
+
+.img-style{
+  border-bottom: 2px solid white;
+}
+
+.card-img:hover{
+  position: relative;
+  bottom:10px;
+  box-shadow: 0px 1px 10px white;
+}
+
+.img-style-2{
+  border-bottom:2px solid #fdfff5;
+}
+
+
+.card-title, .card-text{
+  font-family: 'Fugaz One', cursive;
+  color:black;
+}
+
+p{
+  font-family: 'Baloo Chettan 2', cursive;
+}
+
+h1{
+  font-family: 'Cinzel Decorative', cursive;
+}
+
+.card:hover{
+  position: relative;
+  bottom: 20px;
+  box-shadow: 0px 5px 20px white;
+}
+
+@media only screen and (max-width: 766px) {
+  .card {
+    width: 15rem !important;
+  }
+}
+
+@media only screen and (max-width: 516px) {
+  .card {
+    width: 10rem !important;
+  }
+}
+
+@media only screen and (max-width: 764px) {
+  .container-fluid {
+    margin-bottom: 100px !important;
+  }
+}
+
+@media only screen and (max-width: 667px) {
+  .comp-pos{
+    font-size: 40px!important;
+  }
+}
+
+@media only screen and (max-width: 764px) {
+  .container-fluid {
+    margin-bottom: 100px !important;
+  }
+}
+
+@media only screen and (max-width: 423px) {
+  .comp-pos {
+    font-size: 40px!important;
+  }
+}
+.img-fluid{
+
+  position: relative;
+  bottom:10px;
+  box-shadow: 0px 1px 10px white;
+  width: 10000;
+
+}
