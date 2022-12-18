@@ -13,12 +13,12 @@
 body {
   margin: 0px;
   padding: 0px;
-  background-color: black!important;
+  background-color: black !important;
 }
 
-.comp-pos{
+.comp-pos {
   letter-spacing: 5px;
-  text-shadow:10px 5px 50px white;
+  text-shadow: 10px 5px 50px white;
   color: white;
   font-size: 70px;
   position: relative;
@@ -26,8 +26,8 @@ body {
   font-family: 'Fredericka the Great', cursive;
 }
 
-.rent{
-  background-color:#080808;
+.rent {
+  background-color: #080808;
   color: white;
   position: relative;
   bottom: 130px;
@@ -36,35 +36,31 @@ body {
   box-shadow: 10px 0px 30px white;
 }
 
-.img-style{
+.img-style {
   border-bottom: 2px solid white;
 }
 
-.card-img:hover{
+.card-img:hover {
   position: relative;
-  bottom:10px;
+  bottom: 10px;
   box-shadow: 0px 1px 10px white;
 }
 
-.img-style-2{
-  border-bottom:2px solid #fdfff5;
-}
-
-
-.card-title, .card-text{
+.card-title,
+.card-text {
   font-family: 'Fugaz One', cursive;
-  color:black;
+  color: black;
 }
 
-p{
+p {
   font-family: 'Baloo Chettan 2', cursive;
 }
 
-h1{
+h1 {
   font-family: 'Cinzel Decorative', cursive;
 }
 
-.card:hover{
+.card:hover {
   position: relative;
   bottom: 20px;
   box-shadow: 0px 5px 20px white;
@@ -89,8 +85,8 @@ h1{
 }
 
 @media only screen and (max-width: 667px) {
-  .comp-pos{
-    font-size: 40px!important;
+  .comp-pos {
+    font-size: 40px !important;
   }
 }
 
@@ -102,14 +98,13 @@ h1{
 
 @media only screen and (max-width: 423px) {
   .comp-pos {
-    font-size: 40px!important;
+    font-size: 40px !important;
   }
 }
-.img-fluid{
-
+.img-fluid {
   position: relative;
-  bottom:10px;
+  bottom: 10px;
   box-shadow: 0px 1px 10px white;
   width: 10000;
-
 }
+
